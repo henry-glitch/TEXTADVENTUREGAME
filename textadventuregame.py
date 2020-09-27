@@ -47,11 +47,33 @@ def death():
 
 
 #room2
+
+
 def man():
     print("you run towards the  warehouse and slam the door behind yourself The man jolts around and aims a crossbow at our head")
+    print("            .-.        ")
+    print("           /  \\       ")                      
+    print("      .---/-+--||      ")                      
+    print("     |  K=====++->     ")                       
+    print("      '---\-+--||      ")                         
+    print("           \  //       ")                         
+    print("            `-'        ")
     print("Do you Either")
-    print("a) kepp on running.")
+    print("a) talk to him")
     print("b) Go and try and kill the man")
+    b = input("Enter a or b: ")
+    if b == "a":
+        print("you call out to him explaining you cause no harm")
+        death()
+    elif b == "b":
+        print("The last thing you ever fell is cold metal slide through your head")
+        print(\n)
+        death()
+    else:
+        print("That was not an option.  Game Over")
+
+
+
 #introduction
 print("The year was 2036 a new Pathogen was released by a terrorist organiztion wanting to create a new world  ")
 print("order it was spread from across the world before anyone noticed.The virus had a rabies gene that lead humans")
@@ -68,7 +90,6 @@ x = input("Enter a or b: ")
 if x == "a":
     print("The zombies hunt you down and trap you against the wall You died")
     death()
-    # Contine adventure Here
 elif x == "b":
     print("You go in to investigate.")
     print("A man dressed in tattered old clothing turns around aims his crossbow at your head")
