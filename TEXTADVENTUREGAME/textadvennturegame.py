@@ -1,3 +1,4 @@
+
 # import only system from os 
 from os import system, name 
 from os import startfile
@@ -33,6 +34,70 @@ print("                           `----'                           `---`        
 print("                                                                                                                  `--`                                  ")
 print("\n")
 
+
+def shop(reason):
+    print("youy go to the shop looking for reason")
+    random3 = random.randint(1,10)
+    if random3 == 1:
+        item == "Cheese"
+    elif random3 == 2:
+        item == "Pump shotgun"
+    elif random3 == 3:
+        item == "lanyard"
+    elif random3 == 4:
+        item == "water"
+    elif random3 == 5:
+        item == "sleeping bag"
+    elif random3 == 6:
+        item == "oats"
+    elif random3 == 7:
+        item == "knife"
+    elif random3 == 8:
+        item == "firework"
+    elif random3 == 9:
+        item == "16th century sword"
+    elif random3 == 9:
+        item == "skittles"
+    elif random3 == 9:
+        item == "skittles"
+        
+    print("                                   .-.,-.")
+    print("                                  _|_||_|_")
+    print("                                ,'|--'  __|")
+    print("                                |,'.---'-.'")
+    print("  ___                            |:|] .--|")
+    print(" (__ ```----........_________...-|-|__'--|-........_________.....")
+    print("  \._,```----........__________..::|--' _|--........_________....")
+    print("  :._,._,._,._,._,._,._,._,._,._,\\|___'-|._,._,._,._,._,._,._,._")
+    print("  |._,._,._,._,._,._,._,._,._,._,.`'-----'._,._,._,._,._,._,._,._")
+    print("  |._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._")
+    print("  |._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._")
+    print("  ;._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._")
+    print(" /,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._,._")
+    print(" )________)________)________)________)________)________)_______)_")
+    print("  |::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.-")
+    print("  |_|_  .----._     ___.-_-__-_-.--.-'          __.-.-_-__-_-. '-")
+    print("  |---' '--.-'-'.  '-.-||_|__|_||--'           '--'-||_|__|_||_")
+    print("  |        '----'    '-|| |  | ||             ____.-|| |  | ||-'")
+    print("  |                   [||-|--|-||_           '--.-'-||-|--|-||")
+    print("  |-.____              ||_|__|_||-'-.           '---||_|__|_||_ _")
+    print("  |-'-.--'       ___.--||_|__|_||---' ___.--.       ||_|__|_||_'-")
+    print("  |---'         '---'--'--------'    '---'--'       '--------'")
+    print("  ;--.______________________________________________,--._________")
+    print("  :(o))---------------------------------------------:(o))--------")
+    print("  |`-: \//|[_  /,.\|| |,\|[_  ((_ |[]|/,.\|o)|o)|[_ |`-: ((_ ||| ")
+    print("  |__| // |[_  \`'/|'-|`/|[_   _))|[]|\`'/|| || |[_ |__|  _))|||`")
+    print("  |--|____________________________________________  |--|  _______")
+    print("  |  |       |`-||__|--|__|--|__|--|__|--|__|--|__| |__| ||__|--|")
+    print("  |  |_____  |._|.-------..-------..-------..----.| |  | |.------")
+    print("  |  |.-.-.| |  ||::'    ||::'    ||::'    ||:'  || |  | ||:'")
+    print("  |  || | || |  ||'      ||'      ||'      ||    || |  | ||____.:")
+    print("  |  ||-|-|| |  ||       ||       ||       ||    || |  | |.------")
+    print("  |  || | || |  ||      .||      .||      .||    || |  | ||:'")
+    print("  |__|'-'-'|/:._||___..::||___..::||___..::||__.:|| |__| ||____.:")
+    print("  |  |     || `-|---------------------------------.'|  |'.-------")
+    print(" _|__|-----''-..| ________________________________|_|__|_|_______")
+    delay(2)
 
 
 #death message
@@ -91,29 +156,33 @@ def followman():
             print("you make camp in ")
     elif c == "b":
         print("a group of hunters pins you up against the wall and asks you if you have any food or weapons")
+        for index, item in enumerate(items):
+            henry.pop() 
+        
+        
         random2 =random.randint(1,2)
         if random2 == 1:
             print("The man takes your stuff then shoots you")
             print("          ^ ")        
-        print("         | |  ")      
-        print("       @#####@  ")    
-        print("     (###   ###)-. ") 
-        print("   .(###     ###) \ ")
-        print("  /  (###   ###)   )")
-        print(" (=-  .@#####@|_-- 	GET riggidy recked son")
-        print(" /\    \_|l|_/ (\   	")
-        print("(=-\     |l|    /   ")
-        print(" \  \.___|l|___/    ")
-        print(" /\      |_|   /    ")
-        print("(=-\._________/\    ")
-        print(" \             /    ")
-        print("   \._________/     ")
-        print("     #  ----  #     ")
-        print("     #   __   #      ") 
-        print("     \########/     ") 
-        death2()
-        delay(5)
-        clear()
+            print("         | |  ")      
+            print("       @#####@  ")    
+            print("     (###   ###)-. ") 
+            print("   .(###     ###) \ ")
+            print("  /  (###   ###)   )")
+            print(" (=-  .@#####@|_-- 	GET riggidy recked son")
+            print(" /\    \_|l|_/ (\   	")
+            print("(=-\     |l|    /   ")
+            print(" \  \.___|l|___/    ")
+            print(" /\      |_|   /    ")
+            print("(=-\._________/\    ")
+            print(" \             /    ")
+            print("   \._________/     ")
+            print("     #  ----  #     ")
+            print("     #   __   #      ") 
+            print("     \########/     ") 
+            death2()
+            delay(5)
+            clear()
     else:
         print("They let you go on one condition that you find and kill the man that aimed a crossbow at your head")
         killman = True
@@ -266,7 +335,7 @@ print("abilities) Strong , stamina ")
 print("disabilities) cake")
 print("                 ,#####,")
 print("                 #_   _#")
-print("                 |a` `a|")
+print("                 |0` `0|")
 print("                 |  u  |")
 print("                 \  =  /")
 print("                 |\___/|")
@@ -289,7 +358,7 @@ print("          ;      /     \      ;")
 print("          :     /       \     |")
 print("          |    /         \.   |")
 print("          |`../           |  ,/")
-print("         ( _ )           |  _)")
+print("         ( _ )            |  _)")
 print("          |   |           |   |")
 print("          |___|           \___|")
 print("          :===|            |==|")
@@ -298,6 +367,11 @@ print("           /\/\           /....--")
 print("           |oo|           \__.//___)")
 print("           |==|")
 print("           \__/")
+henry = {
+  "Weapon": "Katana",
+  "food": "bread",
+  "money": 1987,
+}
 sleep(5)
 clear()
 name = input("choose your charecter")
